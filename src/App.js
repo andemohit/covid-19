@@ -15,7 +15,7 @@ class App extends React.Component {
 
   initializeReactGA() {
     ReactGA.initialize('UA-167987202-1');
-    ReactGA.pageview('');
+    ReactGA.pageview('/');
     ReactGA.event({
       category: 'User',
       action: 'Create an Account'
